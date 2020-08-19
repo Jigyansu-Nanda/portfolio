@@ -1,0 +1,281 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.my_vector {
+    height: 40px;
+    width: 40px;
+    margin: 8% 6% 6% 30%;
+}
+
+.topnav {
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    color: #130ef1;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.topnav a.active {
+    color: black;
+}
+  
+.topnav-right {
+    color: black;
+    float: right;
+}
+  
+/* section 1 styling */
+.section-1 {
+    margin: 8% 6% 6% 13%;
+}
+
+/* h1 styling */
+.intro-h1 {
+    color: #130ef1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    margin-bottom: 5px;
+}
+
+.intro-div {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 15%;
+    width: 80%;
+}
+
+.intro-text {
+    color: #393a3b;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: serif; */
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.highlighted {
+    color: black;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #130ef1;
+    border: 8px;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.project-links {
+    background-color: #130ef1;
+    border: 5px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    display:inline-block;
+}
+
+.section-2 {
+    margin: 16% 8% 6% 6%;
+}
+
+/* project div styling */
+.project {
+    width: 50%;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    height: 100%;
+}
+  
+/* project-title styling */
+.project-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    float: left;
+    text-align: left;
+    width: 55%;
+    color: #130ef1;
+}
+
+/* project-details styling */
+.project-details {
+    /* font-family: 'Poppins', sans-serif; */
+    color: #535457;
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    width: 55%;
+    text-align: justify;
+}
+
+/* project-img styling */
+.project-img {
+    width: 35%;
+}
+
+/* .geeksforgeeks {
+    color: #519872;
+} */
+
+.tools-btn {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1px 5px 1px 5px;
+}
+
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #f6f6f6;
+    padding: 20px 0px;
+}
+
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background-color: #130ef1;
+}
+
+.footer-social-icons ul li a {
+    color: #f6f6f6;
+    font-size: 25px;
+}
+
+.footer-social-icons ul li a i {
+    line-height: 50px;
+}
+
+/* large screen */
+@media screen and (min-width: 601px) {
+    .my_vector {
+        height: 40px;
+        width: 40px;
+        margin: 8% 6% 6% 30%;
+    }
+    .section-1 {
+        margin: 8% 6% 6% 13%;
+    }
+    .intro-h1 {
+        font-size: 45px;
+    }
+    .intro-div {
+        margin-bottom: 160px;
+        margin-right: 15%;
+    }
+    .intro-text {
+        font-size: 25px;
+        letter-spacing: 0.6px;
+    }
+    .section-2 {
+        margin: 16% 8% 6% 6%;
+    }
+    .project {
+        margin-top: 30px;
+        margin-bottom: 230px;
+    }
+    .project-img {
+        width: 40%;
+        height: 350px;
+        float: right;
+    }
+}
+
+/* small screen */
+@media screen and (max-width: 600px) {
+    .my_vector {
+        height: 25px;
+        width: 25px;
+        margin: 8% 3% 6% 2%;
+    }
+    .intro-h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 3px;
+        margin-top: 60px;
+    }
+    .intro-div {
+        margin-top: 30px;
+        margin-bottom: 90px;
+        margin-right: 3%;
+        width: 90%;
+    }
+    .intro-text {
+        font-size: 20px;
+        letter-spacing: 1.1px;
+        text-align: left;
+    }
+    .section-1 {
+        margin: 8% 3% 6% 6%;
+    }
+    .section-2 {
+        margin: 20% 3% 6% 3%;
+    }
+    .project {
+        margin-top: 50px;
+        margin-bottom: 420px;
+    }
+    .project-title {
+        width: 100%;
+    }
+    .project-details {
+        width: 100%;
+    }
+    .project-img {
+        width: 100%;
+        height: 300px;
+    }
+}
